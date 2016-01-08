@@ -1,0 +1,2 @@
+# QRCodeController
+IOS下使用AVFoundation实现条形码和二维码扫描
