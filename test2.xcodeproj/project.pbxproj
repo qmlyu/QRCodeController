@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4B841F1B1C3F6601006463FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B841F1A1C3F6601006463FA /* main.m */; };
-		4B841F1E1C3F6601006463FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B841F1D1C3F6601006463FA /* AppDelegate.m */; };
 		4B841F211C3F6601006463FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B841F201C3F6601006463FA /* ViewController.m */; };
 		4B841F261C3F6601006463FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B841F251C3F6601006463FA /* Assets.xcassets */; };
 		4B841F291C3F6601006463FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B841F271C3F6601006463FA /* LaunchScreen.storyboard */; };
@@ -18,6 +17,7 @@
 		4B841F531C3F6811006463FA /* QRCodeAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B841F4F1C3F6811006463FA /* QRCodeAreaView.m */; };
 		4B841F541C3F6811006463FA /* QRCodeBacgrouView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B841F511C3F6811006463FA /* QRCodeBacgrouView.m */; };
 		4B841F571C3F88EE006463FA /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B841F561C3F88EE006463FA /* UIViewExt.m */; };
+		5287B80E1C828D6A0065E880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5287B80D1C828D6A0065E880 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		4B841F161C3F6601006463FA /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B841F1A1C3F6601006463FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B841F1C1C3F6601006463FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4B841F1D1C3F6601006463FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4B841F1F1C3F6601006463FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4B841F201C3F6601006463FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B841F251C3F6601006463FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		4B841F511C3F6811006463FA /* QRCodeBacgrouView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeBacgrouView.m; sourceTree = "<group>"; };
 		4B841F551C3F88EE006463FA /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		4B841F561C3F88EE006463FA /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		5287B80D1C828D6A0065E880 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4B841F1C1C3F6601006463FA /* AppDelegate.h */,
-				4B841F1D1C3F6601006463FA /* AppDelegate.m */,
+				5287B80D1C828D6A0065E880 /* AppDelegate.m */,
 				4B841F1F1C3F6601006463FA /* ViewController.h */,
 				4B841F201C3F6601006463FA /* ViewController.m */,
 				4B841F251C3F6601006463FA /* Assets.xcassets */,
@@ -293,9 +293,9 @@
 				4B841F521C3F6811006463FA /* QRCodeVC.m in Sources */,
 				4B841F211C3F6601006463FA /* ViewController.m in Sources */,
 				4B841F541C3F6811006463FA /* QRCodeBacgrouView.m in Sources */,
-				4B841F1E1C3F6601006463FA /* AppDelegate.m in Sources */,
 				4B841F531C3F6811006463FA /* QRCodeAreaView.m in Sources */,
 				4B841F1B1C3F6601006463FA /* main.m in Sources */,
+				5287B80E1C828D6A0065E880 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +513,7 @@
 				4B841F451C3F6601006463FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B841F461C3F6601006463FA /* Build configuration list for PBXNativeTarget "test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				4B841F481C3F6601006463FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B841F491C3F6601006463FA /* Build configuration list for PBXNativeTarget "test2UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				4B841F4B1C3F6601006463FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
